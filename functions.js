@@ -63,6 +63,7 @@ singleParam => { statements };
 
 // The parameter list for a function with no parameters should be written with a pair of parentheses.
 () => { statements }
+
 var element = [
      "hydrogen",
      "lithium",

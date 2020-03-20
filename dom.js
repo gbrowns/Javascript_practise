@@ -33,7 +33,7 @@ document.removeChild(element)
 document.appendChild(element)
 
 //rreplace an HTML element
-document.replaceChild(new,old)
+document.replaceChild(new,old);
 
 //write into the HTML output stream
 document.write("written message")
