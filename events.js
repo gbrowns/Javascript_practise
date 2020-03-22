@@ -16,7 +16,7 @@ document.getElementById("id1").addEventListener("click", function(){
      alert("hello world!!");
 });
 
-//examole 2
+//example 2
 document.getElementById("id1").addEventListener("mouseover", myFunction);
 
 document.getElementById("id1").addEventListener("auxclick", ()=>{alert("hello world!!");});
