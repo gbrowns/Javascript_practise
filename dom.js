@@ -132,3 +132,17 @@ var child = document.getElementById("childId");
 
 //remove child from parent
 parent.removeChild();
+
+/**Replacing HTML elements */
+
+//create an element
+var elem1 = document.createElement("h2");
+var elem2 = document.createTextNode("Creating an element text");
+elem1.appendChild(elem2);
+
+//grab an elements from the inner HTML
+var parentElem = document.getElementById("prntId");
+var nodeElem = document.getElementById("childId");
+
+//replace the old element with the newly created elemented
+parentElem.replaceChild(elem1, nodeElem);
