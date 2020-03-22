@@ -58,3 +58,77 @@ document.lastModified //returns date and time the document was modified
 document.readyState //returns the loading state of the document
 document.implementation //returns the DOM  implementation
 
+
+/**DOM NODES */
+// 1.parentNode
+// 2.childNodes
+// 3.firstChild
+// 4.lastChild
+// 5.nextSibling
+// 6.previousSibling
+
+//takes the textNode with the id value and asign it to myTItle
+
+var myTitle = document.getElementById("demo").innerHTML;
+
+var myTItle = document.getElementById("demo").firstChild.nodeValue;
+
+var myTItle = document.getElementById("demo").childNodes[0].nodeValue;
+
+/**Node names */
+
+// 1.nodeName is a read-only
+// 2.nodeName of an element is the same to the tag name
+// 3.nodeName of attribute node is the attribute name
+// 4.nodeName of a text node is always #text
+// 5.nodeName of document node is always a #document
+
+document.getElementById("demo").innerHTML = document.getElementById("demo2").nodeName;
+
+//example practises
+
+// create a <p> element and asign it to variable par
+var par = document.createElement("p");
+
+//create the text value for the <p> tag and asign to variable tex
+var tex = document.createTextNode("Having fun with Dom");
+
+//set the value of text to the <p> 
+par.appendChild(tex);
+
+//grab the <div> with the id - "con1"
+var element = document.getElementById("con1");
+
+//inserts the newly created element to the th inner HTML
+element.appendChild(par);
+
+//set css property to the newly created element by DOM
+par.style.color = "blue"
+par.style.fontSize = "30px"
+
+//setting js event listener
+par.addEventListener("click", ()=>{alert("mouse over me");});
+par.addEventListener("mouseout", ()=>{alert("mouse out");});
+
+//removing an element
+
+element.remove();
+
+//find the element you want to remove
+
+var myElement = document.getElementById("di1");
+
+//remove() removes the element
+
+myElement.remove();
+
+/**removing a child Node */
+
+//find parent element
+var parent = document.getElementById("parentId");
+
+//find the child element
+var child = document.getElementById("childId");
+
+//remove child from parent
+parent.removeChild();
