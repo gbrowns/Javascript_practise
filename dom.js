@@ -146,3 +146,15 @@ var nodeElem = document.getElementById("childId");
 
 //replace the old element with the newly created elemented
 parentElem.replaceChild(elem1, nodeElem);
+
+/**DOM collection */
+
+var myPar = document.getElementsByTagName("p");
+var myhed = document.getElementsByTagName("h1");
+
+document.getElementById("mydiv1").innerHTML = `this document contains ${myPar.length} paragraphs`;
+
+document.getElementById("mydiv").innerHTML = `this document contains ${myhed.length} headers`;
+
+/**using the querySelector() method */
+document.querySelector("css_selector");
