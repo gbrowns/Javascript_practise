@@ -88,3 +88,21 @@ function add(){
    var marks = prompt(`Enter you marks ${name}`);
    add(name,marks);
    
+
+   /**NESTED CONDITION STARTEMENTS */
+
+   var ageTestForWork = function() {
+        var age = prompt("Your age please: ");
+        if (age < 18){
+             document.getElementById("idname").innerHTML = "<b>you are a minor</b>";
+             alert("not eligible to work");
+        }else{
+             if (age >=18 && age <=60 ){
+               document.getElementById("idname").innerHTML = "<b>you are eligible to work</b>";
+               alert("fill your details and apply");
+             }else{
+               document.getElementById("idname").innerHTML = "<b>Too old </b>";
+               alert("collect your pension");
+             }
+        }
+   }
