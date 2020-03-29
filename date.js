@@ -33,3 +33,14 @@ switch(siku){
 }
 //display the full date on the console
 console.log(`The date today is ${siku}, ${day}/${month}/${year}`);
+
+
+//example two
+//using toLocaleTimeString property and setInterval() method
+
+let myTime = setInterval(myTimer, 1000);
+
+function myTimer(){
+  let d = new Date();
+  document.getElementById("htmlid").innerHTML = d.toLocaleTimeString();
+}
