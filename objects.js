@@ -136,5 +136,19 @@ job.salary = 50000; //adding a new property into the object
 console.log(job);
 
 /***** ******** ********** ********* ******** ******* ****/
+
 //prototype inheritance
-peeps.prototype.nationality
+peeps.prototype.nationality = "Kenyan"
+
+/***** ******** ********** ********* ******** ******* ****/
+
+function Car(type, brand, model){
+     this.type = type;
+     this.brand = brand;
+     this.model = model;
+    
+}
+
+let car1 = new Car("German", "BMW", 2015)
+
+console.log(car1);
