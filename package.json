@@ -1,0 +1,19 @@
+{
+  "name": "javascript_practise",
+  "version": "1.0.0",
+  "description": "vanilla javascript",
+  "main": "001_loops.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godwin254/Javascript_practise.git"
+  },
+  "author": "brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Godwin254/Javascript_practise/issues"
+  },
+  "homepage": "https://github.com/Godwin254/Javascript_practise#readme"
+}
