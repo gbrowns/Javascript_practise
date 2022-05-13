@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Godwin254/Javascript_practise/issues"
   },
-  "homepage": "https://github.com/Godwin254/Javascript_practise#readme"
+  "homepage": "https://github.com/Godwin254/Javascript_practise#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
