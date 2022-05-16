@@ -1,4 +1,6 @@
-function cc(count){
+let count = 0;
+
+function cc(card){
 
     let regex = /[JQKA]/;
 
@@ -12,4 +14,4 @@ function cc(count){
     else return `${count} Hold`;
 }
 
-console.log(cc(7))
+console.log(cc(2))
