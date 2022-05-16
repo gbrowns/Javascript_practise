@@ -78,3 +78,11 @@ function updateRecords(records, id, prop, value) {
 }
 
 console.log(updateRecords(recordCollection, 5439, 'tracks', ["qwen", "takila"]));
+
+function sum(arr, n) {
+  // Only change code below this line
+  return (n <= 0) ? 0 : sum(arr, n-1) + arr[n-1];
+  // Only change code above this line
+}
+
+console.log(sum([2,3,4], 1));
