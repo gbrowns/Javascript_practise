@@ -14,7 +14,7 @@ const add = (a,b) => a + b;
 //function delegates
 const isZero = n => n === 0;
 
-const a = [0,1,00,3,4,0,0,1];
+const a = [0,1, 0o0,3,4,0,0,1];
 
 console.log(a.filter(isZero).toString().split(" "))
 

@@ -86,3 +86,11 @@ function sum(arr, n) {
 }
 
 console.log(sum([2,3,4], 1));
+
+/**shdcuhdsuhduhusihduhusfhdvuikhbfskhvbfskvbg
+ * slvhjijdpsij;ojscviknfs
+ * nsdkjbnujfnvljfs
+ * hkbskvkhbfskjvbuf
+ * hsbvdkhvbkjfs
+ * csb vhkbfsvkhdj
+ */
